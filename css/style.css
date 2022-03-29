@@ -1,15 +1,26 @@
 h1 {
   text-align: left;
-  font-size: 3vw;
+  font-size: 3em;
   color: #000000;
   font-weight: normal;
 }
 
+p {
+  font-size: 2em;
+}
+
 
 body {
-  background-color: #ffff;
+  background-color:	#ffffcc;
 }
 
 footer {
   font-size: 2vw;
+  background-color: white;
+}
+
+/* Author: Chantal */
+#startButton {
+  font-size: 3em;;
+  border-radius: 0.25em;
 }
