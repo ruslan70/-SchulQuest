@@ -9,7 +9,7 @@ include "includes/head.php";
     ?>
     <div class="container pt-3 col-12">
     <h5>Frage 14 von 15</h5>
-                    <h3>Während des Gesprächs sagt dein Freund: "Los emau!" Wozu fordert Herrmann dich damit auf?</h3>
+                    <h3>Während des Gesprächs sagt dein Freund: "Los emau!" Wozu fordert Herrmann dich damit  auf?</h3>
 
                     <p class="spacer"></p>
                 </div>
