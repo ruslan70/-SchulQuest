@@ -8,8 +8,8 @@ include "includes/head.php";
     include "includes/header.php";
     ?>
     <div class="container pt-3 col-12">
-    <h5>Frage 14 von 15</h5>
-                    <h3>Während des Gesprächs sagt dein Freund: "Los emau!" Wozu fordert Herrmann dich damit  auf?</h3>
+        <h5>Frage 15 von 15</h5>
+        <h3>Zum Schluss verabschiedest du dich noch von Herrmann. Was sagst du?</h3>
 
                     <p class="spacer"></p>
                 </div>
@@ -22,23 +22,23 @@ include "includes/head.php";
         <form action="result.php" method="post" onsubmit="return validateQuestion('single-choice-0', 'single-choice');">
                 <div class="form-check">
                 <input type="radio" class="form-check-input" id="single-choice-1" name="single-choice" value="1">
-                <label class="form-check-label" for="single-choice-1"><h3>Hör mir zu!</h3></label>
+                <label class="form-check-label" for="single-choice-1"><h3>Arri!</h3></label>
                 </div>
 
                 <div class="form-check">
                 <input type="radio" class="form-check-input" id="single-choice-2"name="single-choice"value="0">
-                <label class="form-check-label" for="single-choice-2"><h3>Schau dir das an!</h3></label>
+                <label class="form-check-label" for="single-choice-2"><h3>Grüeza!</h3></label>
                 </div>
 
                 <div class="form-check">
                 <input type="radio" class="form-check-input" id="single-choice-3" name="single-choice" value="0">
-                <label class="form-check-label" for="single-choice-3"><h3>Geh jetzt bitte!</h3></label>
+                <label class="form-check-label" for="single-choice-3"><h3>Ade!</h3></label>
                 
                 </div>
 
                 <div class="form-check">
                 <input type="radio" class="form-check-input" id="single-choice-4" name="single-choice" value="0">
-                <label class="form-check-label" for="single-choice-4"><h3>Steh auf!</h3></label>
+                <label class="form-check-label" for="single-choice-4"><h3>Salut!</h3></label>
                 
                 </div>
                 
