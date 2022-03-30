@@ -11,7 +11,7 @@
                 <div class="col-1"></div>
                 <div class="col-10">
                     <div class="progress">
-                    <div class="progress-bar" style="width:7%">7%</div>
+                    <div class="progress-bar" style="width:27%">27%</div>
                 </div>
                 <div class="col-1"></div>
             </div>
@@ -24,24 +24,24 @@
                 <div class="row">
                     <div class="col-1"></div>
                     <div class="col-10">
-                        <h1 id="questionTitle">Frage 1</h1>
-                        <p id="questionWording">Du bist neu in der Schweiz und hast Papierkram zu erledigen. Wonach erkundigt sich das Amt, wenn es fragt: "Werden Sie betrieben?"<p>
+                        <h1 id="questionTitle">Frage 4</h1>
+                        <p id="questionWording">Vor dem Treffen mit den Mosers willst du noch einige Einkäufe erledigen. Doch der Reifen deines Autos ist platt! Wen rufst du an?<p>
                     </div>
                     <div class="col-1"></div>
                 </div>
             </div>
         </div>
         <div class="container">
-            <form action="question-02.php" method="post" onsubmit="return validateQuestion();">       
+            <form action="question-05.php" method="post" onsubmit="return validateQuestion();">       
                 <div class="row">
                     <div class="col-1"></div>
                     <div class="col-10" id="answerPanel">
                         <div class="form-check">
-                            <input type="radio" class="form-check-input" id="single-choice-1" name="single-choice" value="1">
+                            <input type="radio" class="form-check-input" id="single-choice-1" name="single-choice" value="0">
                             <label class="form-check-label" for="single-choice-1"><p>Haben Sie Schulden?</p></label>
                         </div>
                         <div class="form-check">
-                            <input type="radio" class="form-check-input" id="single-choice-2"name="single-choice"value="0">
+                            <input type="radio" class="form-check-input" id="single-choice-2"name="single-choice"value="1">
                             <label class="form-check-label" for="single-choice-2"><p>Sind Sie selbstständig?</p></label>
                         </div>
                         <div class="form-check">
@@ -60,7 +60,7 @@
                             <div class="col-1"></div>
                             <div class="col-10">
                                 <div>
-                                    <input type="hidden" name="lastPageID" value="question-01">
+                                    <input type="hidden" name="lastPageID" value="question-04">
                                     <input type="hidden" id="achivedPoints" name="achivePoints">
                                     <p id="validation-warning" class="warning"></p>
                                     <button type="submit" class="btn btn-outline-danger buttons">Weiter</button>
