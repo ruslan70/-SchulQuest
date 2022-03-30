@@ -13,7 +13,6 @@ session_destroy(); //um den cache zu leeren
         <div class="container">
             <div class="row">
                 <div class="col-1"></div>
-
                 <div class="container col-10">
                     <h1 id="introductionTitle"> Einführung</h1>
                     <p id="introductionWording">
@@ -35,7 +34,6 @@ session_destroy(); //um den cache zu leeren
                     </form>  
                     <div>
                 </div>
-
                 <div class="col-1"></div>
             </div>
         </div>
