@@ -10,7 +10,7 @@
                 <div class="col-1"></div>
                 <div class="col-10">
                     <div class="progress">
-                    <div class="progress-bar" style="width:7%">7%</div>
+                    <div class="progress-bar" style="width:13%">13%</div>
                 </div>
                 <div class="col-1"></div>
             </div>
@@ -23,33 +23,33 @@
                 <div class="row">
                     <div class="col-1"></div>
                     <div class="col-10">
-                        <h1 id="questionTitle">Frage 1</h1>
-                        <p id="questionWording">Du bist neu in der Schweiz und hast Papierkram zu erledigen. Wonach erkundigt sich das Amt, wenn es fragt: "Werden Sie betrieben?"<p>
+                        <h1 id="questionTitle">Frage 2</h1>
+                        <p id="questionWording">So, Papierkram ist geschafft. Endlich kannst du umziehen! Aber Moment... was heisst "umziehen" eigentlich auf Schweizerdeutsch?"<p>
                     </div>
                     <div class="col-1"></div>
                 </div>
             </div>
         </div>
         <div class="container">
-            <form action="question-02.php" method="post" onsubmit="return validateQuestion();">       
+            <form action="question-03.php" method="post" onsubmit="return validateQuestion();">       
                 <div class="row">
                     <div class="col-1"></div>
                     <div class="col-10" id="answerPanel">
                         <div class="form-check">
-                            <input type="radio" class="form-check-input" id="single-choice-1" name="single-choice" value="1">
-                            <label class="form-check-label" for="single-choice-1"><p>Haben Sie Schulden?</p></label>
+                            <input type="radio" class="form-check-input" id="single-choice-1" name="single-choice" value="0">
+                            <label class="form-check-label" for="single-choice-1"><p>häuseln</p></label>
                         </div>
                         <div class="form-check">
-                            <input type="radio" class="form-check-input" id="single-choice-2"name="single-choice"value="0">
-                            <label class="form-check-label" for="single-choice-2"><p>Sind Sie selbstständig?</p></label>
+                            <input type="radio" class="form-check-input" id="single-choice-2"name="single-choice"value="1">
+                            <label class="form-check-label" for="single-choice-2"><p>zügeln</p></label>
                         </div>
                         <div class="form-check">
                             <input type="radio" class="form-check-input" id="single-choice-3" name="single-choice" value="0">
-                            <label class="form-check-label" for="single-choice-3"><p>Haben Sie eine Festanstellung?</p></label>
+                            <label class="form-check-label" for="single-choice-3"><p>schleppeln</p></label>
                         </div>
                         <div class="form-check">
                             <input type="radio" class="form-check-input" id="single-choice-4" name="single-choice" value="0">
-                            <label class="form-check-label" for="single-choice-4"><p>Sind sie haftpflichtversichert?</p></label>
+                            <label class="form-check-label" for="single-choice-4"><p>kisteln</p></label>
                         </div>
                         </div> 
                         <div class="col-1"></div>
@@ -59,7 +59,7 @@
                             <div class="col-1"></div>
                             <div class="col-10">
                                 <div>
-                                    <input type="hidden" name="lastPageID" value="question-01">
+                                    <input type="hidden" name="lastPageID" value="question-02">
                                     <input type="hidden" id="achivedPoints" name="achivePoints">
                                     <p id="validation-warning" class="warning"></p>
                                     <button type="submit" class="btn btn-outline-danger buttons">Weiter</button>
