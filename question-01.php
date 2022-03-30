@@ -2,10 +2,24 @@
 <?php include "includes/head.php"; ?>
 
 <?php include "includes/header.php";?>
+
+
 <main>
+    <div>
+        <div class="container">
+            <div class="row">
+                <div class="col-1"></div>
+                <div class="col-10">
+                    <div class="progress">
+                    <div class="progress-bar" style="width:7%">7%</div>
+                </div>
+                <div class="col-1"></div>
+            </div>
+        </div>   
+    </div>   
     <!-- Hier kommt noch der Data-Collector-->
     <div>
-        <div class="container-fluid bg-warning text-dark">
+        <div class="container-fluid bg-warning text-dark mt-3">
             <div class="container">
                 <div class="row">
                     <div class="col-1"></div>
