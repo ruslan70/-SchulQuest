@@ -29,7 +29,7 @@ session_destroy(); //um den cache zu leeren
                     </p>
                     <form action="question-01.php" method="post">
                         <div class="col-10">
-                            <button type="submit" id=startButton class="btn btn-outline-danger buttons">Start</button>
+                            <button type="submit" class="btn btn-outline-danger buttons">Start</button>
                         </div>
                     </form>  
                     <div>
