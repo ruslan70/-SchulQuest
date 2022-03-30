@@ -13,7 +13,7 @@
 </head>
 
 <body>
-    <?php include 'inc/data-collector.php'; ?>
+    <?php include 'includes/data-collector.php'; ?>
 
     <form action="question-06.php" method="post" onsubmit="return validateQuestion('single-choice-0', 'single-choice');">
         <div class="container-fluid  bg-warning text-center text-dark">
@@ -21,7 +21,7 @@
             <div class="container mt-3">
                 <h2>Progress Bar With Label</h2>
                 <div class="progress">
-                    <div class="progress-bar" style="width:833,3%">33,3%</div>
+                    <div class="progress-bar" style="width:33,3%">33,3%</div>
                 </div>
             </div>
 
@@ -71,12 +71,13 @@
             <input type="hidden" name="lastPageID" value="question-05">
             <p id="validation-warning" class="warning"></p>
 
-            <a class="btn btn-warning" href="index.php" role="button">❮ Zurück</a>
-            <input class="btn btn-warning" type="submit" value="Weiter ❯">
-            <p class="spacer"></p>
+            <input type="hidden" id="achivedPoints" name="achivePoints">
+            <p id="validation-warning" class="warning"></p>
+            <button type="submit" class="btn btn-outline-danger">Weiter ></button>
 
         </div>
     </form>
+ 
 </body>
 
 </html>
