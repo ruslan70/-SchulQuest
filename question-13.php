@@ -1,17 +1,28 @@
+<!-- ruslan-->
+
 <?php
 include "includes/head.php";
+
 ?>
 
 <body>
 
     <?php
     include "includes/header.php";
+    
     ?>
-    <div class="container pt-3 col-12">
+
+    <div class="container">
+                    
+                    <div class="progress">
+                        <div class="progress-bar" style="width:87%">87%</div>
+                    </div>
+    </div>
+    <div class="container pt-3 col-8">
                     <h5>Frage 13 von 15</h5>
-                    <h3>Nach Feierabend besuchst du deinen Freund Herrmann, 
-                        der nach einiger Zeit schimpft: "Wo sind denn schon wieder meine Finken?"
-                         - Was wird gesucht?</h3>
+                    <h3>Nach Feierabend besuchst du deinen Freund Herrmann,<br> 
+                        der nach einiger Zeit schimpft: "Wo sind denn schon wieder meine Finken?"<br>
+                                              Was wird gesucht?</h3>
 
                     <p class="spacer"></p>
                 </div>
@@ -21,7 +32,7 @@ include "includes/head.php";
             <div class="container-fluid p-2 my-2">
         <div class="container col-9">
             
-        <form action="question-14.php" method="post" onsubmit="return validateQuestion('single-choice-0', 'single-choice');">
+        <form action="question-14.php" method="post" onsubmit="return validateQuestion();">
                 <div class="form-check">
                 <input type="radio" class="form-check-input" id="single-choice-1" name="single-choice" value="0">
                 <label class="form-check-label" for="single-choice-1"><h3>Kopfhörer</h3></label>
@@ -43,16 +54,20 @@ include "includes/head.php";
                 <label class="form-check-label" for="single-choice-4"><h3>Handschuhe</h3></label>
                 
                 </div>
-                
+             
+            <input type="hidden" name="lastPageID" value="question-13">
+            <input type="hidden" id="achivedPoints" name="achivePoints">
+            <p id="validation-warning" class="warning"></p>
+            <button type="submit" class="btn btn-outline-danger">Weiter ></button>   
             </form>
 
-            <button type="button" class="btn btn-outline-danger">Weiter ></button>
             </div>
         </div>
     </div>
 
     <?php
     include "includes/footer.php";
+    include 'includes/data-collector.php';
     ?>
 
 </body>
