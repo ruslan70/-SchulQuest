@@ -1,65 +1,82 @@
-<?php include includes/head.php ?>
-<?php include includes/header.php?>
-<?php include data-collector.php?>
+<!--author: Chantal and Ruslan-->
 
-<!--author: chantal.genoud-->
+<?php include "includes/head.php"; ?>
+<?php include "includes/data-collector.php";?>
+        
+    
+    
+<?php include "includes/header.php";?>
 
-<form action="question-10.php" method="post" onsubmit="return validateQuestion('single-choice-0', 'single-choice');">       
-            <div class="container-fluid  bg-warning text-center text-dark">
-                <div class="container pt-3 col-12">
-                    <h5>Frage 10</h5>
-                    <h3>Am nächsten Tag fällt dir auf dem Weg zur Arbeit auf, dass dir ein Knopf an der Jacke fehlt. Welche Bedeutung hat Knopf im Schweizerdeutschen ausserdem?</h3>
 
-                    <p class="spacer"></p>
+<main>
+    <div>
+        <div class="container">
+            <div class="row">
+                <div class="col-1"></div>
+                <div class="col-10">
+                    <div class="progress">
+                    <div class="progress-bar" style="width:69%">69%</div>
                 </div>
-
+                <div class="col-1"></div>
             </div>
-
-
-
-
-            <div class="container-fluid bg-primary text-center text-warning">
-                <div class="container pt-5 col-12">
-
-                    <div class="form-check">
-                        <input class="form-check-input" type="radio" name="single-choice" id="single-choice-1" value="0">
-                        <label class="form-check-label" for="single-choice-1">
-                        <h3>Fleck</h3>
-                        </label>
+        </div>   
+    </div>  
+   
+    Handschuhe
+    <div>
+        <div class="container-fluid bg-warning text-dark mt-3">
+            <div class="container">
+                <div class="row">
+                    <div class="col-1"></div>
+                    <div class="col-10">
+                        <h1 id="questionTitle">Frage 10 von 15</h1>
+                        <p id="questionWording">Am nächsten Tag fällt dir auf dem Weg zur Arbeit auf, dass dir ein Knopf an der Jacke fehlt. Welche Bedeutung hat Knopf im Schweizerdeutschen ausserdem?<p>
                     </div>
-
-                    <div class="form-check">
-                        <input class="form-check-input" type="radio" name="single-choice" id="single-choice-2" value="0">
-                        <label class="form-check-label" for="single-choice-2">
-                        <h3>Rad</h3>
-                        </label>
-                    </div>
-
-                    <div class="form-check">
-                        <input class="form-check-input" type="radio" name="single-choice" id="single-choice-3" value="0">
-                        <label class="form-check-label" for="single-choice-3">
-                        <h3>Quarkbällchen</h3>
-                        </label>
-                    </div>
-
-                    
-
-                    <div class="form-check">
-                        <input class="form-check-input" type="radio" name="single-choice" id="single-choice-4" value="1">
-                        <label class="form-check-label" for="single-choice-4">
-                        <h3>Knoten</h3>
-                        </label>
-                    </div>
-
-
+                    <div class="col-1"></div>
                 </div>
-                        <input type="hidden" name="lastPageID" value="question-10">
-                        <p id="validation-warning" class="warning"></p>
-                        <input type="reset" value="Zurücksetzen"><br><br>
-                        <a class="btn btn-warning" href="index.php" role="button">❮ Zurück</a>
-                        <input class="btn btn-warning" type="submit" value="Weiter ❯">
-                        <p class="spacer"></p>
-                
             </div>
-                
-        </form>
+        </div>
+        <div class="container">
+            <form action="question-11.php" method="post" onsubmit="return validateQuestion();">       
+                <div class="row">
+                    <div class="col-1"></div>
+                    <div class="col-10" id="answerPanel">
+                        <div class="form-check">
+                            <input type="radio" class="form-check-input" id="single-choice-1" name="single-choice" value="0">
+                            <label class="form-check-label" for="single-choice-1"><p>Fleck</p></label>
+                        </div>
+                        <div class="form-check">
+                            <input type="radio" class="form-check-input" id="single-choice-2"name="single-choice"value="0">
+                            <label class="form-check-label" for="single-choice-2"><p>Rad</p></label>
+                        </div>
+                        <div class="form-check">
+                            <input type="radio" class="form-check-input" id="single-choice-3" name="single-choice" value="0">
+                            <label class="form-check-label" for="single-choice-3"><p>Quarkbällchen</p></label>
+                        </div>
+                        <div class="form-check">
+                            <input type="radio" class="form-check-input" id="single-choice-4" name="single-choice" value="1">
+                            <label class="form-check-label" for="single-choice-4"><p>Knoten</p></label>
+                        </div>
+                        </div> 
+                        <div class="col-1"></div>
+                    </div>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-1"></div>
+                            <div class="col-10">
+                                <div>
+                                    <input type="hidden" name="lastPageID" value="question-10">
+                                    <input type="hidden" id="achievedPoints" name="achievedPoints">
+                                    <p id="validation-warning" class="warning"></p>
+                                    <button type="submit" class="btn btn-outline-danger buttons">Weiter</button>
+                                </div>
+                            </div>
+                            <div class="col-1"></div>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</main>
+<?php include "includes/footer.php"; ?>
