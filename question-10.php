@@ -22,7 +22,6 @@
         </div>   
     </div>  
    
-    Handschuhe
     <div>
         <div class="container-fluid bg-warning text-dark mt-3">
             <div class="container">
