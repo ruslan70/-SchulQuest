@@ -1,6 +1,6 @@
 <!--author: Stéphane-->
 <?php include "includes/head.php"; ?>
-
+<?php include "includes/data-collector.php";?>
 <?php include "includes/header.php";?>
 
 <main>
@@ -16,7 +16,6 @@
             </div>
         </div>   
     </div>   
-    <!-- Hier kommt noch der Data-Collector -->
     <div>
         <div class="container-fluid bg-warning text-dark mt-3">
             <div class="container">
@@ -40,7 +39,7 @@
                             <label class="form-check-label" for="single-choice-1"><p>Haben Sie Schulden?</p></label>
                         </div>
                         <div class="form-check">
-                            <input type="radio" class="form-check-input" id="single-choice-2"name="single-choice"value="0">
+                            <input type="radio" class="form-check-input" id="single-choice-2"name="single-choice" value="0">
                             <label class="form-check-label" for="single-choice-2"><p>Sind Sie selbstständig?</p></label>
                         </div>
                         <div class="form-check">
