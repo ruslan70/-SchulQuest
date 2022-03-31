@@ -1,6 +1,6 @@
 function validateQuestion()  {
     // Holle die Liste aller ausgewählter Radioboxen (checked).
-
+ alert ("Hallo World");
     let radioboxes = document.querySelectorAll('input[type=radio]:checked');
 
     if (radioboxes.length === 0) {

@@ -2,8 +2,9 @@
 <?php include "includes/head.php"; ?>
 
 <!-- Author: Chantal just the section php -->
-<?php session_start();
-session_destroy(); //um den cache zu leeren
+<?php   
+        session_start();
+        session_destroy(); //um den cache zu leeren
 ?>
 <!-- Ende Author: Chantal -->
 

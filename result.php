@@ -1,52 +1,73 @@
 <!-- ruslan-->
 
-<?php
-include "includes/head.php";
-?>
+<?php include "includes/head.php"; ?>
 
-<body>
+<?php include "includes/header.php";?>
 
+
+<main>
+    <div>
+         
+    </div>   
+    <!-- Hier kommt noch der Data-Collector-->
     <?php
-    include "includes/header.php";
-    
-   
+
+        include "includes/data-collector.php";
+        include "includes/evaluate.php";
+
     ?>
-   
-    
-
-    <div class="container pt-3 col-12">
-        <h5>Frage 15 von 15</h5>
-        <h3>Zum Schluss verabschiedest du dich noch von Herrmann. Was sagst du?</h3>
-
-        <p class="spacer"></p>
-    </div>
-    
-
-    <div class="d-grid gap-2 col-6 mx-auto mt-5">
-        <div class="container-fluid p-2 my-2">
-            <div class="container col-9">
+    <div>
+        <div class="container-fluid bg-warning text-dark mt-3">
+            <div class="container">
+                <div class="row">
+                    <div class="col-1"></div>
+                    <div class="col-10">
+                        <h1 id="questionTitle">Dein Ergebnis:</h1>
+                    <!--<?php
+                   
+                        printResult();
                     
-               
-                        
-                        
+                    ?>  -->  
+                   
+                    <h3>Vielen Dahk fürs Mitmachen</h3>
+                </div>
 
-                            <input type="hidden" name="lastPageID" value="question-15">
-                            <input type="hidden" id="achivedPoints" name="achivePoints">
-                            <p id="validation-warning" class="warning"></p>
-                            <button type="submit" class="btn btn-outline-danger">Weiter ></button>  
-                        
                 
-
-           
+                    
+                        <p id="questionWording">Zum Schluss verabschiedest du dich noch von Herrmann. Was sagst du?<p>
+                    </div>
+                    <div class="col-1"></div>
+                </div>
             </div>
         </div>
+        <div class="container">
+            <form action="result.php" method="post" onsubmit="return validateQuestion();">       
+                <div class="row">
+                    <div class="col-1"></div>
+                    <div class="col-10" id="answerPanel">
+                        
+                        </div> 
+                        <div class="col-1"></div>
+                    </div>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-1"></div>
+                            <div class="col-10">
+                                <div>
+                                <input type="hidden" name="lastPageID" value="result">
+                                <p id="validation-warning" class="warning"></p>
+                                
+                                <a class="btn btn-outline-primary" href="index.php" role="button">Zurück</a>
+                                <a class="btn btn-outline-primary" href="index.php" role="button">Restart</a>
+                                
+                                </div>
+                            </div>
+                            <div class="col-1"></div>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
     </div>
-
-    <?php
-    include "includes/footer.php";
-    include 'includes/data-collector.php';
-    ?>
-
-</body>
-
-</html>
+</main>
+<?php include "includes/footer.php"; ?>
