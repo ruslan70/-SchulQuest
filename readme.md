@@ -1,3 +1,4 @@
+<!--author: Stéphane-->
 # SchoolQuest
 Ruslan, Chanta, Lu, Stéphane
 
