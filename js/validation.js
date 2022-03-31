@@ -1,8 +1,8 @@
 function validateQuestion()  {
     // Holle die Liste aller ausgewählter Radioboxen (checked).
- alert ("Hallo World");
+ 
     let radioboxes = document.querySelectorAll('input[type=radio]:checked');
-
+    
     if (radioboxes.length === 0) {
         // Die liste der Radioboxen ist leer - es wurde nichts ausgewählt.
         setWarning("Bitte wähle eine Antwort aus!");
@@ -23,9 +23,9 @@ function validateQuestion()  {
         achievedPoints = achievedPoints + points; // oder kürzer: achievedPoints += points;
 
         }
-    
+        alert (achievedPoints);
 
         // schreibe die erreichte Punktzahl ins Hidden Field "achivedPoints".
-        let hiddenField = document.getElementById("achivedPoints");
+        let hiddenField = document.getElementById("achievedPoints");
         hiddenField.value = achievedPoints;
 }

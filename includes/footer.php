@@ -4,6 +4,7 @@
               <p class="small">© Copyright <?= date('Y') ?> | SchoolQuest - 8048 Zürich - Switzerland | All Rights Reserved</p>
           </div>
       </div>
+      
   </footer>
 
 </body>

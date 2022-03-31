@@ -23,18 +23,18 @@
                     <div class="col-1"></div>
                     <div class="col-10">
                         <h1 id="questionTitle">Dein Ergebnis:</h1>
-                    <!--<?php
+                    <?php
                    
                         printResult();
                     
-                    ?>  -->  
+                    ?>  
                    
-                    <h3>Vielen Dahk fürs Mitmachen</h3>
+                    <h3>Vielen Dahk fürs Mitmachen!</h3>
                 </div>
 
                 
                     
-                        <p id="questionWording">Zum Schluss verabschiedest du dich noch von Herrmann. Was sagst du?<p>
+                        <p id="questionWording"><p>
                     </div>
                     <div class="col-1"></div>
                 </div>
@@ -57,7 +57,7 @@
                                 <input type="hidden" name="lastPageID" value="result">
                                 <p id="validation-warning" class="warning"></p>
                                 
-                                <a class="btn btn-outline-primary" href="index.php" role="button">Zurück</a>
+                               
                                 <a class="btn btn-outline-primary" href="index.php" role="button">Restart</a>
                                 
                                 </div>
