@@ -9,10 +9,16 @@ p {
   font-size: 1.1em;
 }
 
-
+/*author: chantal*/
 body {
   background-color:	#ffffcc;
 }
+
+.impressum {
+  margin-top: 3em;
+}
+
+/*Ende author: chantal*/
 
 footer {
   font-size: 2.5vw;
