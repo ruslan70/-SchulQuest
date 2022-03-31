@@ -3,7 +3,6 @@
 
 <?php include "includes/header.php";?>
 
-
 <main>
     <div>
         <div class="container">
@@ -37,11 +36,11 @@
                     <div class="col-1"></div>
                     <div class="col-10" id="answerPanel">
                         <div class="form-check">
-                            <input type="radio" class="form-check-input" id="single-choice-1" name="single-choice" value="0">
+                            <input type="radio" class="form-check-input" id="single-choice-1" name="single-choice" value="1">
                             <label class="form-check-label" for="single-choice-1"><p>Haben Sie Schulden?</p></label>
                         </div>
                         <div class="form-check">
-                            <input type="radio" class="form-check-input" id="single-choice-2"name="single-choice"value="1">
+                            <input type="radio" class="form-check-input" id="single-choice-2"name="single-choice"value="0">
                             <label class="form-check-label" for="single-choice-2"><p>Sind Sie selbstständig?</p></label>
                         </div>
                         <div class="form-check">
@@ -61,7 +60,7 @@
                             <div class="col-10">
                                 <div>
                                     <input type="hidden" name="lastPageID" value="question-01">
-                                    <input type="hidden" id="achivedPoints" name="achivePoints">
+                                    <input type="hidden" id="achievedPoints" name="achievedPoints">
                                     <p id="validation-warning" class="warning"></p>
                                     <button type="submit" class="btn btn-outline-danger buttons">Weiter</button>
                                 </div>
