@@ -60,11 +60,7 @@
                             <div class="col-10">
                                 <div>
                                     <input type="hidden" name="lastPageID" value="question-03">
-<<<<<<< HEAD
                                     <input type="hidden" id="achievedPoints" name="achievedPoints">
-=======
-                                    <input type="hidden" id="achivedPoints" name="achivePoints">
->>>>>>> origin/master
                                     <p id="validation-warning" class="warning"></p>
                                     <button type="submit" class="btn btn-outline-danger buttons">Weiter</button>
                                 </div>
