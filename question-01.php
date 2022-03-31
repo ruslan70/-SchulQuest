@@ -17,7 +17,7 @@
             </div>
         </div>   
     </div>   
-    <!-- Hier kommt noch der Data-Collector-->
+    <!-- Hier kommt noch der Data-Collector -->
     <div>
         <div class="container-fluid bg-warning text-dark mt-3">
             <div class="container">
