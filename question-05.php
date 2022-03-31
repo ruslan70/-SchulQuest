@@ -1,6 +1,12 @@
 <!--author: Lu / page 05-->
 <?php include "includes/head.php"; ?>
+
+<!-- data collection-->
+<?php include "includes/data-collector.php"; ?>
+
+<!--header-->
 <?php include "includes/header.php"; ?>
+
 <!--progress bar-->
 <div class="container">
     <div class="row">
@@ -14,7 +20,6 @@
         </div>
     </div>
 </div>
-<!-- data collection-->
 <div>
     <div class="container-fluid bg-warning text-dark mt-3">
         <div class="container">
