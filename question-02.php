@@ -1,5 +1,6 @@
 <!--author: Stéphane-->
 <?php include "includes/head.php"; ?>
+<?php include "includes/data-collector.php";?>
 
 <?php include "includes/header.php";?>
 
@@ -16,7 +17,7 @@
             </div>
         </div>   
     </div>   
-    <!-- Hier kommt noch der Data-Collector-->
+
     <div>
         <div class="container-fluid bg-warning text-dark mt-3">
             <div class="container">
@@ -40,7 +41,8 @@
                             <label class="form-check-label" for="single-choice-1"><p>häuseln</p></label>
                         </div>
                         <div class="form-check">
-                            <input type="radio" class="form-check-input" id="single-choice-2"name="single-choice"value="1">
+                            <input type="radio" class="form-check-input" id="single-choice-2"name="single-choice" value="1">
+
                             <label class="form-check-label" for="single-choice-2"><p>zügeln</p></label>
                         </div>
                         <div class="form-check">
@@ -60,7 +62,9 @@
                             <div class="col-10">
                                 <div>
                                     <input type="hidden" name="lastPageID" value="question-02">
-                                    <input type="hidden" id="achivedPoints" name="achivePoints">
+
+                                    <input type="hidden" id="achievedPoints" name="achievedPoints">
+
                                     <p id="validation-warning" class="warning"></p>
                                     <button type="submit" class="btn btn-outline-danger buttons">Weiter</button>
                                 </div>
