@@ -40,11 +40,7 @@
                             <label class="form-check-label" for="single-choice-1"><p>Haben Sie Schulden?</p></label>
                         </div>
                         <div class="form-check">
-<<<<<<< branch-stephane
                             <input type="radio" class="form-check-input" id="single-choice-2"name="single-choice" value="0">
-=======
-                           
->>>>>>> master
                             <label class="form-check-label" for="single-choice-2"><p>Sind Sie selbstständig?</p></label>
                         </div>
                         <div class="form-check">
