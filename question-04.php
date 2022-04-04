@@ -38,20 +38,20 @@
                     <div class="col-10" id="answerPanel">
                         <div class="form-check">
                             <input type="radio" class="form-check-input" id="single-choice-1" name="single-choice" value="0">
-                            <label class="form-check-label" for="single-choice-1"><p>Haben Sie Schulden?</p></label>
+                            <label class="form-check-label" for="single-choice-1"><p>Das Werkstättli</p></label>
                         </div>
                         <div class="form-check">
                             <input type="radio" class="form-check-input" id="single-choice-2"name="single-choice" value="1">
 
-                            <label class="form-check-label" for="single-choice-2"><p>Sind Sie selbstständig?</p></label>
+                            <label class="form-check-label" for="single-choice-2"><p>Die Garage</p></label>
                         </div>
                         <div class="form-check">
                             <input type="radio" class="form-check-input" id="single-choice-3" name="single-choice" value="0">
-                            <label class="form-check-label" for="single-choice-3"><p>Haben Sie eine Festanstellung?</p></label>
+                            <label class="form-check-label" for="single-choice-3"><p>Die Cars</p></label>
                         </div>
                         <div class="form-check">
                             <input type="radio" class="form-check-input" id="single-choice-4" name="single-choice" value="0">
-                            <label class="form-check-label" for="single-choice-4"><p>Sind sie haftpflichtversichert?</p></label>
+                            <label class="form-check-label" for="single-choice-4"><p>Das Atelier</p></label>
                         </div>
                         </div> 
                         <div class="col-1"></div>
