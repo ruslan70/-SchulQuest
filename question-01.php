@@ -62,7 +62,7 @@
                                     <input type="hidden" name="lastPageID" value="question-01">
                                     <input type="hidden" id="achievedPoints" name="achievedPoints">
                                     <p id="validation-warning" class="warning"></p>
-                                    <button type="submit" class="btn btn-outline-danger buttons">Weiter</button>
+                                   <button type="submit" class="btn btn-outline-danger buttons">Weiter</button>
                                 </div>
                             </div>
                             <div class="col-1"></div>
@@ -70,6 +70,7 @@
                     </div>
                 </div>
             </form>
+            
         </div>
     </div>
 </main>

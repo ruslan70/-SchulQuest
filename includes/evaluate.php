@@ -40,6 +40,10 @@ function evaluateQuestions() {
         "question-14",
         "question-15"
     ];
+
+    echo "<pre>";
+    print_r($_SESSION);
+    echo "</pre>";
     
     $totalPoints = 0;
     $pageNum = count($questionPageNames);
