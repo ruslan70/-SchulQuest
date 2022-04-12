@@ -8,7 +8,7 @@ function validateQuestion()  {
         setWarning("Bitte wähle eine Antwort aus!");
         return false; // Submit Aktion wird gestopt.
     }
-
+    
     // Nach dem Auswahl einer Antwort: die erreichte Punkte zusammenzählen.
     let achievedPoints = 0; // Summe aller erreichten Punkte pro Frage.
     let points; // Anzahl der Punkte einer einzelnen Antwort.
@@ -16,16 +16,20 @@ function validateQuestion()  {
 
     for (let i = 0; i < radioboxes.length; i++) {
         points = radioboxes[i].value;  //Als "value" kommt ein String.
-        points = parseInt(points);  // String in ganzze Zahl konvertieren.
+        points = parseInt(points);  // String in ganze Zahl konvertieren.
 
         // Für richtige Antwort: points === 1,
         //     falsche Antwort: points === 0.
         achievedPoints = achievedPoints + points; // oder kürzer: achievedPoints += points;
 
-        }
-        alert (achievedPoints);
+    }
+        
 
         // schreibe die erreichte Punktzahl ins Hidden Field "achivedPoints".
         let hiddenField = document.getElementById("achievedPoints");
         hiddenField.value = achievedPoints;
+}
+function setWarning(text) {
+    let warningElement = document.getElementById("validation-warning");
+    warningElement.innerText = text;
 }
